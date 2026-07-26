@@ -1,0 +1,23 @@
+Kyno
+
+Kyno is a mini monolithic kernel licensed under BSD, designed to run on BIOS systems with support for both 32-bit and 64-bit architectures.
+It includes:
+
+    Kyboot: bootloader written in Assembly.
+
+    Kyno: the monolithic kernel written in C.
+
+    Kynner: process scheduler.
+
+    FAT32: integrated filesystem support.
+
+  Philosophy
+
+    Minimalism: a small, educational kernel.
+
+    Open Source BSD: free, flexible, and community-driven.
+
+    Compatibility: runs on BIOS, supports 32-bit and 64-bit CPUs.
+
+    Community: forums and developer platform for drivers, themes, and apps.
+
