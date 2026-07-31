@@ -11,7 +11,7 @@ status = uefi_call_wrapper(KernelFile->GetInfo, 4,
                            &FileInfoSize,
                            FileInfo);
 if (EFI_ERROR(status)) {
-    Print(L"Error 232: Kyno failed to retrieve information from the directory/file\n");
+    Print(L"Error 232: Kyno failed to retrieve information from the directory or file\n");
     return status;
 }
 
